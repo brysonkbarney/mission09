@@ -17,7 +17,17 @@ interface TeamsProp {
 }
 
 function Welcome() {
-  return <h1>NCAA Basketball Teams</h1>;
+  return (
+    <div>
+      <h1>NCAA Basketball Teams</h1>
+      <p>
+        Dive into the heart of NCAA basketball by exploring the rich heritage
+        and vibrant spirit of teams across the nation. From iconic mascots to
+        hometown glory, uncover the unique stories and locales that define
+        college basketball's most beloved teams.
+      </p>
+    </div>
+  );
 }
 
 class Team extends React.Component<TeamsProp> {
