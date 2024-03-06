@@ -3,12 +3,13 @@
 }
 
 .team-card {
-  border: 1px solid #ddd;
+  border: 3px solid rgb(0, 0, 0);
   border-radius: 8px;
   padding: 20px;
   margin: 10px;
   display: inline-block;
-  width: 200px;
+  width: 240px;
+  height: 110px;
   box-shadow: 0 2px 4px rgba(96, 156, 122, 0.1);
 }
 
